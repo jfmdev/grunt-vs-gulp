@@ -17,7 +17,7 @@ gulp.task('less', function() {
         .pipe(gulp.dest('destination'));
 });
 
-// Define 
+// Register default task.
 gulp.task('default',['uglify', 'less']);
 
 // Watch for javascript files and execute the default task.

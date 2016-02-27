@@ -1,11 +1,11 @@
 
 module.exports = function(grunt) {
-    // Configurate tasks.
+    // Configurate task.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json')
     });
  
-    // Register tasks.
+    // Register default task.
     grunt.registerTask('default', [] );
 
     // Print message.

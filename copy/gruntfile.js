@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     // Load dependencies.
     grunt.loadNpmTasks('grunt-contrib-copy');
     
-    // Configurate tasks.
+    // Configurate task.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         
@@ -18,6 +18,6 @@ module.exports = function(grunt) {
         },
     });
  
-    // Register tasks.
+    // Register default task.
     grunt.registerTask('default', ['copy'] );
 };

@@ -50,6 +50,6 @@ module.exports = function(grunt) {
         grunt.log.writeln(target + ': ' + filepath + ' has ' + action);
     });
  
-    // Register tasks.
+    // Register default task.
     grunt.registerTask('default', ['uglify', 'less','watch'] );
 };

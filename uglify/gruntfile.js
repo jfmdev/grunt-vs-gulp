@@ -18,6 +18,6 @@ module.exports = function(grunt) {
         },
     });
  
-    // Register tasks.
+    // Register default task.
     grunt.registerTask('default', ['uglify'] );
 };

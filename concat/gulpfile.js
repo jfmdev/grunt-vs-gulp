@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 
-// Declare tasks.
+// Declare task.
 gulp.task('default', function() {
     // Return task definition.
     return gulp.src('source/*.js')

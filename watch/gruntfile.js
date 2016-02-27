@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         
-        // Configure copy task.
+        // Configure uglify task.
         uglify: {
             dist: {
                 expand: true,
@@ -18,6 +18,7 @@ module.exports = function(grunt) {
             },
         },
         
+        // Configure watch task.
         watch: {
             scripts: {
                 files: 'source/*.js',
@@ -31,6 +32,6 @@ module.exports = function(grunt) {
         grunt.log.writeln(target + ': ' + filepath + ' has ' + action);
     });
  
-    // Register tasks.
+    // Register default task.
     grunt.registerTask('default', ['watch'] );
 };

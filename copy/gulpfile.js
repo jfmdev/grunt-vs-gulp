@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-// Declare tasks.
+// Declare task.
 gulp.task('default', function() {
     // Return task definition.
     return gulp

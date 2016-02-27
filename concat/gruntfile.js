@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         
-        // Configure copy task.
+        // Configure concat task.
         concat: {
             dist: {
               src: 'source/*.js',
@@ -16,6 +16,6 @@ module.exports = function(grunt) {
           },
     });
  
-    // Register tasks.
+    // Register default task.
     grunt.registerTask('default', ['concat'] );
 };

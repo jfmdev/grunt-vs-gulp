@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var less = require('gulp-less');
 var path = require('path');
 
-// Declare tasks.
+// Define task.
 gulp.task('default', function() {
     // Return task definition.
     return gulp.src('source/*.less')
