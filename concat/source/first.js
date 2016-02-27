@@ -1,0 +1,4 @@
+
+var FirstModule = {
+    text: 'First'
+}
