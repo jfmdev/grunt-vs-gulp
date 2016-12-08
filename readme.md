@@ -15,3 +15,9 @@ Before executing the examples, you must install their dependencies by using `npm
  * __uglify__ is an example of how obfuscate JavaScript files.
  * __watch__ is an example of how to add a listener for execute a task when a file is modified.
  * __general__ is an example that combines the tasks of _less_, _uglify_ and _watch_.
+
+License
+-------
+
+This project free software; you can redistribute it and/or modify it under the terms of the Mozilla Public License v2.0. 
+You should have received a copy of the MPL 2.0 along with this library, otherwise you can obtain one at <http://mozilla.org/MPL/2.0/>.
